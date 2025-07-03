@@ -1,0 +1,28 @@
+[
+  {
+    "id": 1750512264444,
+    "name": "varun panchakarla",
+    "email": "varun@gmail.com",
+    "password": "$2b$10$dwiqegvJ.8.AzNyXsNWz7eDNNUIn225DethQKXTEVFVdaWjwM2wYe",
+    "specialization": "dermatologist",
+    "license": "65431897612",
+    "experience": "32",
+    "hospital": "niku endhuku",
+    "phone": "6304847533",
+    "address": "niku endhuku",
+    "role": "doctor"
+  },
+  {
+    "id": 1750518513415,
+    "name": "chandra narne",
+    "email": "chandra@gmail.com",
+    "specialization": "dermatologist",
+    "license": "68761741248978",
+    "experience": "2",
+    "hospital": "y for u",
+    "phone": "6304847533",
+    "address": "y for u bro",
+    "password": "$2b$10$fEcLz2CNT0gPCrLrWw8RneSb/s4C/xvJQivWZDDQjg76kfcF1Spky",
+    "role": "doctor"
+  }
+]

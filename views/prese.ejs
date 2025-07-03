@@ -1,0 +1,28 @@
+<!-- Prescriptions Section -->
+<section class="bg-white rounded-lg shadow p-6 mb-6">
+  <h2 class="text-lg font-semibold mb-4">Recent Prescriptions</h2>
+  <% prescriptions.forEach(p => { %>
+    <div class="border-b py-4 space-y-2">
+      <div>
+        <p><strong><%= p.doctorName %></strong> - <span class="text-sm text-gray-500"><%= p.date %></span></p>
+        <p class="text-sm text-gray-600 mb-1">Precautions: <%= p.precautions %></p>
+      </div>
+      <% if (p.medicines && p.medicines.length > 0) { %>
+        <div>
+          <p class="font-medium text-gray-700">Medicines:</p>
+          <ul class="ml-4 mt-1 text-sm list-disc text-gray-700">
+            <% p.medicines.forEach(med => { %>
+              <li>
+                <span class="font-semibold"><%= med.name %></span> - 
+                <%= med.timing.includes('morning') ? 'Morning ' : '' %>
+                <%= med.timing.includes('afternoon') ? 'Afternoon ' : '' %>
+                <%= med.timing.includes('evening') ? 'Evening ' : '' %>
+                <%= med.timing.includes('night') ? 'Night ' : '' %>
+              </li>
+            <% }) %>
+          </ul>
+        </div>
+      <% } %>
+    </div>
+  <% }) %>
+</section>

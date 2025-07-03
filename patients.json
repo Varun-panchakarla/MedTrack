@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1750510893308,
+    "name": "varun panchakarla",
+    "email": "varun@gmail.com",
+    "password": "$2b$10$9UpTcyNEC8L8tJI00C0OYupG3EFpzmNl61LMwOlh75ORTX5Xwk2y.",
+    "dob": "21",
+    "gender": "male",
+    "phone": "6304847533",
+    "address": "atagraharam",
+    "role": "patient"
+  },
+  {
+    "id": 1750518739029,
+    "name": "Thanmaie Panchakarla",
+    "email": "thanmaie@gmail.com",
+    "dob": "20",
+    "gender": "female",
+    "phone": "6304847533",
+    "address": "Guntur",
+    "password": "$2b$10$VzwA7JCTghIuWzJqv7Ll3.qwK4yOpi5NKcbzeZurFy6Plz4Yqo0VK",
+    "role": "patient"
+  },
+  {
+    "id": 1750670325090,
+    "name": "rohitha  d",
+    "dob": "20",
+    "gender": "female",
+    "email": "rohitha@gmail.com",
+    "phone": "65465432445",
+    "address": "Nallapadu",
+    "password": "$2b$10$cT2SavorpaCiredTOzhA5u5tyXyuw4e.VwZSNYSlDnodSyGtK0WaC",
+    "role": "patient"
+  },
+  {
+    "id": 1750670406051,
+    "name": "sjdvchjs asdjcvas",
+    "dob": "1654",
+    "gender": "male",
+    "email": "kbgcvh@jhgg",
+    "phone": "5134116546423",
+    "address": "khgdres",
+    "password": "$2b$10$h9TMrxbC6Qrya9EuL.vs3Ov.d5a34h.TVpwCRcHkcgL7Z6wLFKdXq",
+    "role": "patient"
+  },
+  {
+    "id": 1750918436877,
+    "name": "vasasvi panchakarla",
+    "dob": "38",
+    "gender": "female",
+    "email": "vasavi@gmail.com",
+    "phone": "9885557079",
+    "address": "atagraharam",
+    "password": "$2b$10$xwKCUJnexdz7.gWxipWOo.2XjlbPM/tWF3gGZ2iMxQvJQn.wpuGXW",
+    "role": "patient"
+  },
+  {
+    "id": 1750932842198,
+    "name": "varun panchakarla",
+    "dob": "21",
+    "gender": "male",
+    "email": "varunp@gmail.com",
+    "phone": "6304847533",
+    "address": "atagraharam",
+    "password": "$2b$10$Zxu0TjtvLZtYtCAUxycxke6q/0T4fGR0AIVZhxFBP1LQwoz/vLRzm",
+    "role": "patient"
+  }
+]

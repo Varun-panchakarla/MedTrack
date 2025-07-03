@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1750689145067,
+    "doctorId": 1750518513415,
+    "doctorName": "chandra narne",
+    "specialty": "dermatologist",
+    "patientId": 1750670325090,
+    "patientName": "rohitha  d",
+    "date": "2025-06-25",
+    "time": "10:30",
+    "reason": "utdyc",
+    "status": "Cancelled"
+  },
+  {
+    "id": 1750918465737,
+    "doctorId": 1750518513415,
+    "doctorName": "chandra narne",
+    "specialty": "dermatologist",
+    "patientId": 1750918436877,
+    "patientName": "vasasvi panchakarla",
+    "date": "2025-06-26",
+    "time": "12:00",
+    "reason": "hgdgv",
+    "status": "Completed",
+    "precautions": "avoid non veg"
+  }
+]

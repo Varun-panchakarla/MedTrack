@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact Us | MedTrack</title>
+  <!-- Font Awesome for social icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+      background-color: #f4f9fc;
+      color: #333;
+      padding: 2rem;
+    }
+
+    .container {
+      max-width: 700px;
+      margin: 0 auto;
+      background: #ffffff;
+      padding: 2rem;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+
+    h1 {
+      text-align: center;
+      color: #2e2b41;
+      margin-bottom: 1.5rem;
+    }
+
+    form label {
+      display: block;
+      margin-bottom: 0.5rem;
+      font-weight: 600;
+    }
+
+    form input,
+    form textarea {
+      width: 100%;
+      padding: 0.8rem;
+      margin-bottom: 1.2rem;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      font-size: 1rem;
+      resize: vertical;
+    }
+
+    form button {
+      background-color: #2e2b41;
+      color: white;
+      border: none;
+      padding: 0.75rem 1.5rem;
+      border-radius: 6px;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    form button:hover {
+      background-image: linear-gradient(to left,#028090, #00bfa6,#00887a);
+    }
+
+    #success-message {
+      margin-top: 1rem;
+      background-color: #d4edda;
+      color: #155724;
+      padding: 1rem;
+      border-radius: 6px;
+      display: none;
+      text-align: center;
+    }
+
+    .social-icons {
+      margin-top: 2rem;
+      text-align: center;
+    }
+
+    .social-icons a {
+      display: inline-block;
+      margin: 0 10px;
+      color: #0077cc;
+      font-size: 1.5rem;
+      transition: color 0.3s;
+    }
+
+    .social-icons a:hover {
+      color: #005fa3;
+    }
+
+    @media (max-width: 600px) {
+      body {
+        padding: 1rem;
+      }
+
+      .container {
+        padding: 1.5rem;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+    <h1>Contact Us</h1>
+    <form id="contactForm" method="post">
+      <label for="name">Your Name</label>
+      <input type="text" id="name" name="name" required placeholder="Enter your name" />
+
+      <label for="email">Your Email</label>
+      <input type="email" id="email" name="email" required placeholder="Enter your email" />
+
+      <label for="subject">Subject</label>
+      <input type="text" id="subject" name="subject" required placeholder="Enter subject" />
+
+      <label for="message">Message</label>
+      <textarea id="message" name="message" rows="5" required placeholder="Write your message..."></textarea>
+
+      <button type="submit">Send Message</button>
+    </form>
+
+    <div id="success-message">
+      ✅ Your message has been sent successfully!<br>
+      Redirecting to home page...
+    </div>
+
+  <script>
+    const form = document.getElementById('contactForm');
+    const successMessage = document.getElementById('success-message');
+
+    form.addEventListener('submit', function (e) {
+      e.preventDefault(); // Prevent actual form submission
+
+      // Show success message
+      successMessage.style.display = 'block';
+
+      // Clear form
+      form.reset();
+
+      // Redirect to home page after 3 seconds
+      setTimeout(() => {
+        window.location.href = "/"; // Change to your actual homepage if different
+      }, 3000);
+    });
+  </script>
+
+</body>
+</html>
